@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="top">
+    <div class="nav-icon-holder-top">
+        <a asp-area="Household" asp-controller="Home" asp-action="Index">
+            <img src="~/Images/Icons/house-door-fill.svg" class="nav-icons" />
+        </a>
+       
+    </div>
+</div>
+
+<div class="test">
+    <div>
+        <h1 style="color:#E13C5C">
+            Dwellers
+        </h1>
+        <div>
+            <partial name="_LoginPartial" />
+        </div>
+    </div>
+</div>
+
+<div class="bottom">
+    <div class="nav-icon-holder-bottom">
+        <a asp-area="" asp-controller="" asp-action="">
+            <img src="~/Images/Icons/houses-fill.svg" class="nav-icons" />
+        </a>
+    </div>
+</div>

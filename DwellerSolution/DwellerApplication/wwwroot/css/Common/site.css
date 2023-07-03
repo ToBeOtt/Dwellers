@@ -1,0 +1,95 @@
+/*Core CSS*/
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Fira Sans', Arial, Helvetica, sans-serif;
+    background: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Frank Ruhl Libre', Georgia, 'Times New Roman', Times, serif;
+}
+
+.vertical-layout {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.wrapper {
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1fr min(75ch, 100%) 1fr;
+    min-height: 100%;
+}
+
+    .wrapper > * {
+        grid-column: 2;
+    }
+
+.full-bleed {
+    width: 100%;
+    grid-column: 1 / 4;
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+.test {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+/*------------ Navigation ------------*/
+
+/*Containers for icons*/
+.top {
+    grid-row: 1;
+    width: 100%;
+    white-space: nowrap;
+    padding: 5vh;
+}
+
+.bottom {
+    grid-row: 3;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 5vh;
+}
+
+/*Icons*/
+.nav-icons {
+    width: 3vw;
+    height: 3vh;
+}
+
+    /*Icon holders*/
+    .nav-icon-holder-top {
+        display: grid;
+        justify-content: center;
+        top: 0;
+    }
+
+    .nav-icon-holder-bottom {
+        display: grid;
+        justify-content: center;
+        bottom: 0;
+    }

@@ -1,0 +1,30 @@
+﻿@page
+@model DwellerApplication.Areas.Identity.Pages.Account.IndexModel
+@{
+}
+
+<form id="houseRegister1" method="post">
+
+    @*Name of house*@
+    <div class="mb-3">
+        <input asp-for="RegModel.HouseName" class="form-label" aria-required="true" placeholder="Namn på hushåll"/>
+        <span asp-validation-for="RegModel.HouseName" class="text-danger"></span>
+    </div>
+
+    @*Description of household*@
+    <div class="mb-3">
+        <textarea class="form-control" input asp-for="RegModel.HouseDesc" class="form-label" 
+        aria-required="true" placeholder="Beskrivning av hushållet" rows="3"></textarea>
+        <span asp-validation-for="RegModel.HouseDesc" class="text-danger"></span>
+    </div>
+
+    <input type="hidden" name="username" value="@Model.UserName"/>
+    <button type="submit" class="btn btn-primary">Nästa</button>
+    
+</form>
+
+
+@if (Model.RegistrationComplete)
+{
+    <h1>WOOOHOO DET GICK!</h1>
+}
