@@ -36,11 +36,16 @@ namespace DwellerApplication.Application.Services.RoleServices
 
         public async Task TrySeedAsync()
         {
-            HouseOwner ownerRole = new HouseOwner();
-
+            HouseOwner ownerRole = new();
             if (_roleManager.Roles.All(r => r.Name != ownerRole.Name))
             {
                 await _roleManager.CreateAsync(ownerRole);
+            }
+
+            HouseMember houseMemberRole = new();
+            if (_roleManager.Roles.All(r => r.Name != houseMemberRole.Name))
+            {
+                await _roleManager.CreateAsync(houseMemberRole);
             }
 
             // Add new hardcoded owners

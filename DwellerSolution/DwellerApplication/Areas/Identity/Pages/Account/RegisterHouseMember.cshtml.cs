@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 using System.ComponentModel.DataAnnotations;
 
+
 namespace DwellerApplication.Areas.Identity.Pages.Account
 {
     public class RegisterHouseMemberModel : PageModel
@@ -13,13 +14,15 @@ namespace DwellerApplication.Areas.Identity.Pages.Account
         private readonly ILogger<RegisterHouseMemberModel> _logger;
         private readonly RoleService _roleService;
         private readonly RegistrationServices _registrationServices;
+        private readonly IUrlHelper _urlHelper;
 
         public RegisterHouseMemberModel(ILogger<RegisterHouseMemberModel> logger, RoleService roleService,
-            RegistrationServices registrationServices)
+            RegistrationServices registrationServices, IUrlHelper urlHelper)
         {
             _logger = logger;
             _roleService = roleService;
             _registrationServices = registrationServices;
+            _urlHelper = urlHelper;
         }
 
         [BindProperty]
@@ -50,9 +53,12 @@ namespace DwellerApplication.Areas.Identity.Pages.Account
                     throw new ArgumentException();
                 }
             }
+
+            var controlerURL = _urlHelper.Action("Index", "Home", new { area = "Household" });
             RegistrationComplete = true;
-            return Page();
+            return new RedirectToActionResult("Index", "Home", new { area = "Household" });
         }
+    
 
     }
 }

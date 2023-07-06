@@ -3,26 +3,21 @@ using DwellerApplication.Application.Services.Household;
 using DwellerApplication.Application.Services.Registration;
 using DwellerApplication.Application.Services.RoleServices;
 using DwellerApplication.Application.Services.User;
+using DwellerApplication.Core;
 using DwellerApplication.Core.Models.User;
 using DwellerApplication.Infrastructure.Data;
 using DwellerApplication.Infrastructure.Data.Repositories;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
+using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
-//Infrastructure-services
-builder.Services.AddScoped<IHouseRepository, HouseRepository>();
-builder.Services.AddScoped<IUserRepository, UserRepository>();
-
-//Application-services
-builder.Services.AddScoped<RegistrationServices>();
-builder.Services.AddScoped<UserServices>();
-builder.Services.AddScoped<HouseServices>();
-builder.Services.AddScoped<RoleService>();
-builder.Services.AddScoped<SeedUserData>();
+builder.Services.AddCoreServices();
+builder.Services.AddApplicationServices();
+builder.Services.AddInfrastructureServices();
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -33,7 +28,6 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDefaultIdentity<AppUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
-
 
 builder.Services.AddControllersWithViews();
 
