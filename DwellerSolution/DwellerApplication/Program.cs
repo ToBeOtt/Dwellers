@@ -1,5 +1,7 @@
 using DwellerApplication.Application.Interfaces;
+using DwellerApplication.Application.Services.Household;
 using DwellerApplication.Application.Services.Registration;
+using DwellerApplication.Application.Services.RoleServices;
 using DwellerApplication.Application.Services.User;
 using DwellerApplication.Core.Models.User;
 using DwellerApplication.Infrastructure.Data;
@@ -18,14 +20,21 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 //Application-services
 builder.Services.AddScoped<RegistrationServices>();
 builder.Services.AddScoped<UserServices>();
+builder.Services.AddScoped<HouseServices>();
+builder.Services.AddScoped<RoleService>();
+builder.Services.AddScoped<SeedUserData>();
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
+
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<AppUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
@@ -34,6 +43,15 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseMigrationsEndPoint();
+
+    //Initialize various roles for the Dweller application
+    using (var scope = app.Services.CreateScope())
+    {
+        var initialiser = scope.ServiceProvider.GetRequiredService<SeedUserData>();
+        //await initialiser.InitialiseAsync();
+        await initialiser.SeedAsync();
+        await initialiser.SeedUsersAsync();
+    }
 }
 else
 {

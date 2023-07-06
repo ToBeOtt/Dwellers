@@ -1,271 +1,271 @@
 {
   "Files": [
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\DwellerApplication.bundle.scp.css",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\DwellerApplication.bundle.scp.css",
       "PackagePath": "staticwebassets\\DwellerApplication.bundle.scp.css"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\Images\\Icons\\house-door-fill.svg",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\Images\\Icons\\house-door-fill.svg",
       "PackagePath": "staticwebassets\\Images\\Icons\\house-door-fill.svg"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\Images\\Icons\\houses-fill.svg",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\Images\\Icons\\houses-fill.svg",
       "PackagePath": "staticwebassets\\Images\\Icons\\houses-fill.svg"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\Images\\Icons\\list.svg",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\Images\\Icons\\list.svg",
       "PackagePath": "staticwebassets\\Images\\Icons\\list.svg"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\Images\\robert-bye-a0x0H8Wq87Y-unsplash.jpg",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\Images\\robert-bye-a0x0H8Wq87Y-unsplash.jpg",
       "PackagePath": "staticwebassets\\Images\\robert-bye-a0x0H8Wq87Y-unsplash.jpg"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\Images\\sven-V7WkmXntA8M-unsplash.jpg",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\Images\\sven-V7WkmXntA8M-unsplash.jpg",
       "PackagePath": "staticwebassets\\Images\\sven-V7WkmXntA8M-unsplash.jpg"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\css\\Common\\design.css",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\css\\Common\\design.css",
       "PackagePath": "staticwebassets\\css\\Common\\design.css"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\css\\Common\\site.css",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\css\\Common\\site.css",
       "PackagePath": "staticwebassets\\css\\Common\\site.css"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\favicon.ico",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\js\\site.js",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

@@ -6,6 +6,7 @@ namespace DwellerApplication.Application.Interfaces
     public interface IHouseRepository
     {
         Task<House> GetHouse(int id);
+        Task<House> GetHouseByInvitation(string invitationCode);
 
         Task<AppUser> GetHouseMembers(int id);
 

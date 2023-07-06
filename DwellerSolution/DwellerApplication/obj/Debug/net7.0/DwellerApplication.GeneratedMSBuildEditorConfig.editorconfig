@@ -9,73 +9,77 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DwellerApplication
 build_property.RootNamespace = DwellerApplication
-build_property.ProjectDir = D:\Programmering\Repos - Aktuella\DwellerSolution\DwellerApplication\
+build_property.ProjectDir = D:\Programmering\Repos - Aktuella\Dwellers\DwellerSolution\DwellerApplication\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Programmering\Repos - Aktuella\DwellerSolution\DwellerApplication
+build_property.MSBuildProjectDirectory = D:\Programmering\Repos - Aktuella\Dwellers\DwellerSolution\DwellerApplication
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Programmering/Repos - Aktuella/DwellerSolution/DwellerApplication/Areas/Household/Views/Home/Index.cshtml]
+[D:/Programmering/Repos - Aktuella/Dwellers/DwellerSolution/DwellerApplication/Areas/Household/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSG91c2Vob2xkXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Programmering/Repos - Aktuella/DwellerSolution/DwellerApplication/Areas/Identity/Pages/Account/Login.cshtml]
+[D:/Programmering/Repos - Aktuella/Dwellers/DwellerSolution/DwellerApplication/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Programmering/Repos - Aktuella/DwellerSolution/DwellerApplication/Areas/Identity/Pages/Account/Logout.cshtml]
+[D:/Programmering/Repos - Aktuella/Dwellers/DwellerSolution/DwellerApplication/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Programmering/Repos - Aktuella/DwellerSolution/DwellerApplication/Areas/Identity/Pages/Account/Register.cshtml]
+[D:/Programmering/Repos - Aktuella/Dwellers/DwellerSolution/DwellerApplication/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Programmering/Repos - Aktuella/DwellerSolution/DwellerApplication/Areas/Identity/Pages/Account/RegisterHouse.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckhvdXNlLmNzaHRtbA==
+[D:/Programmering/Repos - Aktuella/Dwellers/DwellerSolution/DwellerApplication/Areas/Identity/Pages/Account/RegisterHouseMember.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckhvdXNlTWVtYmVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Programmering/Repos - Aktuella/DwellerSolution/DwellerApplication/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[D:/Programmering/Repos - Aktuella/Dwellers/DwellerSolution/DwellerApplication/Areas/Identity/Pages/Account/RegisterHouseOwner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckhvdXNlT3duZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programmering/Repos - Aktuella/Dwellers/DwellerSolution/DwellerApplication/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Programmering/Repos - Aktuella/DwellerSolution/DwellerApplication/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[D:/Programmering/Repos - Aktuella/Dwellers/DwellerSolution/DwellerApplication/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Programmering/Repos - Aktuella/DwellerSolution/DwellerApplication/Areas/Identity/Pages/_ViewImports.cshtml]
+[D:/Programmering/Repos - Aktuella/Dwellers/DwellerSolution/DwellerApplication/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Programmering/Repos - Aktuella/DwellerSolution/DwellerApplication/Areas/Identity/Pages/_ViewStart.cshtml]
+[D:/Programmering/Repos - Aktuella/Dwellers/DwellerSolution/DwellerApplication/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Programmering/Repos - Aktuella/DwellerSolution/DwellerApplication/Views/Home/Index.cshtml]
+[D:/Programmering/Repos - Aktuella/Dwellers/DwellerSolution/DwellerApplication/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Programmering/Repos - Aktuella/DwellerSolution/DwellerApplication/Views/Shared/Error.cshtml]
+[D:/Programmering/Repos - Aktuella/Dwellers/DwellerSolution/DwellerApplication/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Programmering/Repos - Aktuella/DwellerSolution/DwellerApplication/Views/Shared/_LoginPartial.cshtml]
+[D:/Programmering/Repos - Aktuella/Dwellers/DwellerSolution/DwellerApplication/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Programmering/Repos - Aktuella/DwellerSolution/DwellerApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Programmering/Repos - Aktuella/Dwellers/DwellerSolution/DwellerApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Programmering/Repos - Aktuella/DwellerSolution/DwellerApplication/_ViewImports.cshtml]
+[D:/Programmering/Repos - Aktuella/Dwellers/DwellerSolution/DwellerApplication/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = X1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Programmering/Repos - Aktuella/DwellerSolution/DwellerApplication/_ViewStart.cshtml]
+[D:/Programmering/Repos - Aktuella/Dwellers/DwellerSolution/DwellerApplication/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = X1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Programmering/Repos - Aktuella/DwellerSolution/DwellerApplication/Views/Shared/_Layout.cshtml]
+[D:/Programmering/Repos - Aktuella/Dwellers/DwellerSolution/DwellerApplication/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-gee2ay0yxj

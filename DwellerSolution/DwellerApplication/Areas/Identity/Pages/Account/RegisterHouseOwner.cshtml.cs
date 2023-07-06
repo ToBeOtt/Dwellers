@@ -1,20 +1,20 @@
-using DwellerApplication.Application.Services.Common;
 using DwellerApplication.Application.Services.Registration;
+using DwellerApplication.Core.Helpers;
 using DwellerApplication.Core.Models;
 using DwellerApplication.Core.Models.User;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.ComponentModel.DataAnnotations;
-using static DwellerApplication.Application.Services.Common.ErrorServices;
+
 
 namespace DwellerApplication.Areas.Identity.Pages.Account
 {
-    public class IndexModel : PageModel
+    public class RegisterHouseOwnerModel : PageModel
     {
         private readonly RegistrationServices _registrationServices;
-        private readonly ILogger<IndexModel> _logger;
+        private readonly ILogger<RegisterHouseOwnerModel> _logger;
 
-        public IndexModel(RegistrationServices registrationServices, ILogger<IndexModel> logger)
+        public RegisterHouseOwnerModel(RegistrationServices registrationServices, ILogger<RegisterHouseOwnerModel> logger)
         {
             _registrationServices = registrationServices;
             _logger = logger;

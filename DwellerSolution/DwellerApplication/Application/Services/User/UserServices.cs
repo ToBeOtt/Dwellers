@@ -1,8 +1,8 @@
-﻿using Azure;
-using DwellerApplication.Application.Interfaces;
+﻿using DwellerApplication.Application.Interfaces;
+using DwellerApplication.Core.Helpers;
 using DwellerApplication.Core.Models.User;
 using DwellerApplication.Data.Migrations;
-using static DwellerApplication.Application.Services.Common.ErrorServices;
+
 
 namespace DwellerApplication.Application.Services.User
 {
@@ -19,7 +19,7 @@ namespace DwellerApplication.Application.Services.User
         {
             if(username == null)
             {
-                // handle error
+                throw new ArgumentNullException(nameof(username));
             }
 
             var user = await _userRepository.GetUserByName(username);

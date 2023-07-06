@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6WRCD23coZUgmh4z8VzFtb9f7wG760xDHu7EzEj4e8Rf0awwP4DoIdXmmCb66nKSGDPL4l4B98tFs3whNvFsww==",
+  "dgSpecHash": "/TaDP6Y5RAMXTd6+Y24eZXFG+V0WyWbD/5EicV4SzwCHlsotuOXWbqhpyBLIGJ5773MSG/YV1BgoDktdBHkSMA==",
   "success": true,
-  "projectFilePath": "D:\\Programmering\\Repos - Aktuella\\DwellerSolution\\DwellerApplication\\DwellerApplication.csproj",
+  "projectFilePath": "D:\\Programmering\\Repos - Aktuella\\Dwellers\\DwellerSolution\\DwellerApplication\\DwellerApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tacri\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\tacri\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
@@ -152,6 +152,7 @@
     "C:\\Users\\tacri\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\tacri\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\tacri\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\tacri\\.nuget\\packages\\serilog\\3.0.1\\serilog.3.0.1.nupkg.sha512",
     "C:\\Users\\tacri\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\tacri\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\tacri\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",

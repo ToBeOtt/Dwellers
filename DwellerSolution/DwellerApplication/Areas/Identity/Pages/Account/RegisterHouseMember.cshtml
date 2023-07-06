@@ -1,0 +1,24 @@
+﻿@page
+@model DwellerApplication.Areas.Identity.Pages.Account.RegisterHouseMemberModel
+@{
+}
+
+
+<form id="houseMemberRegister" method="post">
+
+    @*Name of house*@
+    <div class="mb-3">
+        <input asp-for="InvitationCode" class="form-label" aria-required="true" placeholder="Inbjudningskod" />
+        <span asp-validation-for="InvitationCode" class="text-danger"></span>
+    </div>
+
+    <input type="hidden" name="username" value="@Model.Username" />
+    <button type="submit" class="btn btn-primary">Registrera</button>
+
+</form>
+
+
+@if (Model.RegistrationComplete)
+{
+    <h1>Husmedlem skapad</h1>
+}

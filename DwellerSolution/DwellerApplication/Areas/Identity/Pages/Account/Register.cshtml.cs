@@ -142,7 +142,11 @@ namespace DwellerApplication.Areas.Identity.Pages.Account
 
                     if (Input.HouseCheck == 1)
                     {
-                        return RedirectToPage("RegisterHouse", new { email = Input.Email});
+                        return RedirectToPage("RegisterHouseOwner", new { email = Input.Email});
+                    }
+                    if (Input.HouseCheck == 2)
+                    {
+                        return RedirectToPage("RegisterHouseMember", new { email = Input.Email });
                     }
                     if (_userManager.Options.SignIn.RequireConfirmedAccount)
                     {
