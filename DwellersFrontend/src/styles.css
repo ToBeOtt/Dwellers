@@ -1,0 +1,51 @@
+
+
+.vertical-text {
+writing-mode: vertical-rl; 
+text-orientation: upright; 
+white-space: nowrap;
+}
+
+
+.calendar-pattern {
+  --s: 50px; /* control the size */
+
+  --_g: rgba(23, 4, 9, 0) 52%, rgba(23, 4, 9, 0.1) 54% 57%, rgba(23, 4, 9, 0) 59%; 
+  background: 
+    radial-gradient(farthest-side at -33.33% 50%, var(--_g)) 0 calc(var(--s)/2),
+    radial-gradient(farthest-side at 50% 133.33%, var(--_g)) calc(var(--s)/2) 0,
+    radial-gradient(farthest-side at 133.33% 50%, var(--_g)),
+    radial-gradient(farthest-side at 50% -33.33%, var(--_g)),
+    #5c39b600; /* second color */
+  background-size: calc(var(--s)/4.667) var(--s), var(--s) calc(var(--s)/4.667);
+}
+
+.footer-pattern {
+  --s: 70px; /* control the size */
+
+  --_g: #0000 83%,#402a0b32 85% 99%,#0000 101%;
+  background:
+    radial-gradient(27% 29% at right ,var(--_g)) calc(var(--s)/ 2) var(--s),
+    radial-gradient(27% 29% at left  ,var(--_g)) calc(var(--s)/-2) var(--s),
+    radial-gradient(29% 27% at top   ,var(--_g)) 0 calc(var(--s)/ 2),
+    radial-gradient(29% 27% at bottom,var(--_g)) 0 calc(var(--s)/-2)
+    #47607400;
+  background-size: calc(2*var(--s)) calc(2*var(--s));
+}
+
+.chat-pattern {
+  --s: 70px; /* the size */
+  --c: #957891;
+  
+  --_s: calc(2*var(--s)) calc(2*var(--s));
+  --_g: 35.36% 35.36% at;
+  --_c: #0000 66%,#2f4c4646 68% 70%,#0000 72%;
+  background:
+    radial-gradient(var(--_g) 100% 25%,var(--_c)) var(--s) var(--s)/var(--_s),
+    radial-gradient(var(--_g) 0    75%,var(--_c)) var(--s) var(--s)/var(--_s),
+    radial-gradient(var(--_g) 100% 25%,var(--_c)) 0 0/var(--_s),
+    radial-gradient(var(--_g) 0    75%,var(--_c)) 0 0/var(--_s),
+    repeating-conic-gradient(var(--c) 0 25%,#0000 0 50%) 0 0/var(--_s),
+    radial-gradient(var(--_c)) 0 calc(var(--s)/2)/var(--s) var(--s)
+    var(--c);
+}

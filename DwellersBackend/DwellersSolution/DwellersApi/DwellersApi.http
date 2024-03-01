@@ -1,0 +1,32 @@
+﻿@DwellersApi_HostAddress = http://localhost:5081
+
+GET {{DwellersApi_HostAddress}}/Dashboard/Home
+
+###
+
+GET {{DwellersApi_HostAddress}}/[Controller]/Home
+
+###
+
+POST {{DwellersApi_HostAddress}}/auth/RegisterHouse
+Content-Type: application/json
+
+{
+  //RegisterHouseRequest
+}
+
+###
+
+GET {{DwellersApi_HostAddress}}/household/Home
+
+###
+
+POST {{DwellersApi_HostAddress}}/auth/RegisterHouse
+Content-Type: application/json
+
+{
+  //RegisterHouseRequest
+}
+
+###
+

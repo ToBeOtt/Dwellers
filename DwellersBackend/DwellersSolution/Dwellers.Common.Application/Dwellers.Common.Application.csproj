@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Queries\Bulletin\**" />
+    <Compile Remove="Queries\Calendar\**" />
+    <Compile Remove="Queries\Chat\**" />
+    <EmbeddedResource Remove="Queries\Bulletin\**" />
+    <EmbeddedResource Remove="Queries\Calendar\**" />
+    <EmbeddedResource Remove="Queries\Chat\**" />
+    <None Remove="Queries\Bulletin\**" />
+    <None Remove="Queries\Calendar\**" />
+    <None Remove="Queries\Chat\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+    <PackageReference Include="Serilog" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dwellers.Bulletins.Domain\Dwellers.Bulletins.Domain.csproj" />
+    <ProjectReference Include="..\Dwellers.Chat.Domain\Dwellers.Chat.Domain.csproj" />
+    <ProjectReference Include="..\Dwellers.Common.Application.Contracts\Dwellers.Common.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Dwellers.DwellerCore.Domain\Dwellers.DwellerCore.Domain.csproj" />
+    <ProjectReference Include="..\Dwellers.DwellerEvents.Domain\Dwellers.DwellerEvents.Domain.csproj" />
+    <ProjectReference Include="..\Dwellers.Offerings.Domain\Dwellers.Offerings.Domain.csproj" />
+    <ProjectReference Include="..\SharedKernel\SharedKernel.csproj" />
+  </ItemGroup>
+
+</Project>

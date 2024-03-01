@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Commands\Calendar\**" />
+    <Compile Remove="Commands\Chat\**" />
+    <Compile Remove="Queries\Bulletin\**" />
+    <Compile Remove="Queries\Calendar\**" />
+    <Compile Remove="Queries\Chat\**" />
+    <Compile Remove="Requests\Calendar\**" />
+    <Compile Remove="Requests\Chat\**" />
+    <Compile Remove="Requests\Dwelling\**" />
+    <Compile Remove="Results\Bulletin\**" />
+    <Compile Remove="Results\Calendar\**" />
+    <Compile Remove="Results\Chat\**" />
+    <EmbeddedResource Remove="Commands\Calendar\**" />
+    <EmbeddedResource Remove="Commands\Chat\**" />
+    <EmbeddedResource Remove="Queries\Bulletin\**" />
+    <EmbeddedResource Remove="Queries\Calendar\**" />
+    <EmbeddedResource Remove="Queries\Chat\**" />
+    <EmbeddedResource Remove="Requests\Calendar\**" />
+    <EmbeddedResource Remove="Requests\Chat\**" />
+    <EmbeddedResource Remove="Requests\Dwelling\**" />
+    <EmbeddedResource Remove="Results\Bulletin\**" />
+    <EmbeddedResource Remove="Results\Calendar\**" />
+    <EmbeddedResource Remove="Results\Chat\**" />
+    <None Remove="Commands\Calendar\**" />
+    <None Remove="Commands\Chat\**" />
+    <None Remove="Queries\Bulletin\**" />
+    <None Remove="Queries\Calendar\**" />
+    <None Remove="Queries\Chat\**" />
+    <None Remove="Requests\Calendar\**" />
+    <None Remove="Requests\Chat\**" />
+    <None Remove="Requests\Dwelling\**" />
+    <None Remove="Results\Bulletin\**" />
+    <None Remove="Results\Calendar\**" />
+    <None Remove="Results\Chat\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dwellers.Bulletins.Domain\Dwellers.Bulletins.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

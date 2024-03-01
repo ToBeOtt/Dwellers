@@ -1,0 +1,3 @@
+Fortsätt med att göra user från domain till att fungera med Identity user. Nästa steg är att fortsätta med reg.command och implementera 
+password osv så att allt flyter. Tanken är att en user görs i domain och sedan exporteras till identity.
+Nästa steg är att overrida identityUser ID till ett GUID som genereras från domain model.			
