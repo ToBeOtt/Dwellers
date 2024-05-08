@@ -11,6 +11,13 @@ namespace Dwellers.Authentication.Infrastructure.Data
         {
         }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.HasDefaultSchema("auth_schema"); 
+        }
+
         public DbSet<DbUser> Users { get; set; } = null!;
     }
 }

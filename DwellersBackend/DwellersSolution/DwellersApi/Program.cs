@@ -86,8 +86,8 @@ app.MapControllers();
 
 if (app.Environment.IsDevelopment())
 {
-    var id = await AuthInMemorySeeds.Initialize(app.Services);
-    await DwellerInMemorySeeds.Initialize(app.Services, id);
+    var ids = await AuthInMemorySeeds.Initialize(app.Services);
+    await DwellerInMemorySeeds.Initialize(app.Services, ids);
 }
 
 app.Run();

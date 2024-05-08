@@ -1,0 +1,25 @@
+
+# Stage 1: Build
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /src
+
+# Copy the solution file and restore dependencies
+COPY *.sln .
+COPY DwellersApi/*.csproj ./DwellersApi/
+RUN dotnet restore DwellersApi/DwellersApi.csproj
+
+COPY . .
+RUN dotnet publish -c Debug -o /app
+
+# Stage 2: Runtime
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-alpine AS runtime
+WORKDIR /app
+
+# Copy the published API code into the container
+COPY --from=build /app .
+
+# final stage/image
+FROM mcr.microsoft.com/dotnet/aspnet:8.0
+WORKDIR /app
+COPY --from=build /app ./
+ENTRYPOINT ["dotnet", "DwellersApi.dll"]

@@ -49,7 +49,7 @@ namespace Dwellers.Bulletins.Domain.Bulletins
             Tags = BulletinTagFactory.CreateNewCollectionOfTags(tags, this);
             Scope = BulletinScopeFactory.SetBulletinScope(listOfDwellings, this, visibility);
             IsArchived = false;
-            IsCreated = DateTime.Now;
+            IsCreated = DateTime.UtcNow;
         }
         public static class BulletinPostFactory
         {
@@ -83,7 +83,7 @@ namespace Dwellers.Bulletins.Domain.Bulletins
         public void ArchiveBulletin(Bulletin bulletin)
         {
             IsArchived = true;
-            IsModified = DateTime.Now;
+            IsModified = DateTime.UtcNow;
         }
 
         public void AddTags(List<BulletinTag> tags)

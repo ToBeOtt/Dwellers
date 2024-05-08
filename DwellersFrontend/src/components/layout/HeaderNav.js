@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { useContext } from 'react'; 
 import { AuthContext } from '../../App';
 import NavHouse from './NavHouse';
-import { ProfileIcon } from './svg/NavbarIcons';
+import DwellerProfilePhoto from '../dweller/DwellerProfilePhoto';
 
 
 export default function HeaderNav() {
@@ -14,7 +14,7 @@ export default function HeaderNav() {
                     lg:px-16 lg:grid grid-cols-3">   
 
         {/* Logo */}
-        <div className="lg:col-span-1 justify-start">
+        <div className="lg:col-span-1 flex items-center justify-start">
             <h1 className="font-logoText text-4xl text-[#0E7A60] mx-5 my-auto
                            lg:mb-3">
                 dwellers
@@ -31,9 +31,16 @@ export default function HeaderNav() {
                         lg:justify-end">
         {loggedIn ? (
                 <>
+                 <Link
+                    to="/" 
+                    className="text-sm font-semibold leading-6 no-underline hover:text-white"
+                    >
+                        <DwellerProfilePhoto/>
+                </Link>  
+                
                 <Link
                     to="/loginPage" 
-                    className="text-sm font-semibold leading-6 no-underline hover:text-white"
+                    className="flex items-center text-sm font-semibold leading-6 no-underline hover:text-white"
                     onClick={() => {
                     console.log('logging out');
                     setLoggedIn(false);
@@ -43,12 +50,7 @@ export default function HeaderNav() {
                         Log out <span aria-hidden="true">&rarr;</span>
                 </Link>  
 
-                <Link
-                    to="/" 
-                    className="text-sm font-semibold leading-6 no-underline hover:text-white"
-                    >
-                        <ProfileIcon/>
-                </Link>  
+               
                 </> 
             ) : (
                 <>

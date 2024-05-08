@@ -35,8 +35,6 @@ export default function ItemRow() {
             .then((data) => {
                 const itemData = data.listOfItems;
                 setItems(itemData);
-                console.log("THIS IS HAPPENING:::::::");
-                console.log(data);
             });
         }, []); 
 

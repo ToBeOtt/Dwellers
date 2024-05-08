@@ -17,10 +17,6 @@ export default function DashboardPage() {
   })
 
 
-  // Anrop som behöver skrivas:                 
-    // AddService
-    // GetHouseServices
-   
   return (
     <>
         <main className="mx-auto max-w-7xl px-6 w-full py-8

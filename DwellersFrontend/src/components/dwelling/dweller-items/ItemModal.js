@@ -7,7 +7,6 @@ import { formatDate } from '../../utils/FormatTime';
 import Modal from 'react-bootstrap/Modal';
 
 const ItemModal = ({ itemId, isOpen, onClose, }) => {
-  console.log("FIRE!!")
     const [item, setItem] = useState(null);
     const navigate = useNavigate();
 

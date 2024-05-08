@@ -31,7 +31,7 @@ namespace Dwellers.DwellersEvents.Domain.Entites
             Dweller = dweller;
             EventScope = DwellerScope.VisibilityFactory.CreateNewVisibilityScope(visibility);
 
-            IsCreated = DateTime.Now;
+            IsCreated = DateTime.UtcNow;
             IsArchived = false;
         }
 

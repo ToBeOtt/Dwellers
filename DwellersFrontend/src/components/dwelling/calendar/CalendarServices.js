@@ -16,13 +16,12 @@ const CalendarServices = {
             throw new Error('Network response was not ok');
           }
         
-          const text = await response.text(); // First, read the response as text
+          const text = await response.text(); 
         if (!text) {
-          // If the response is empty, handle accordingly
-          return {}; // Return an empty object or any other value that suits your application's needs
+          return {};
         }
 
-        return JSON.parse(text); // If the response is not empty, parse it as JSON
+        return JSON.parse(text);
       },
 
 
@@ -111,7 +110,6 @@ const CalendarServices = {
     
         if (response.ok) {
             const data = await response.json();
-            console.log('Note Received:', data);
             return data;
         } else if (response.status === 401) {
             throw new Error('Unauthorized');

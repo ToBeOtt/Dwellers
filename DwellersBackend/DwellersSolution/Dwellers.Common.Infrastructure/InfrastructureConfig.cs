@@ -29,19 +29,22 @@ namespace Dwellers.Common.Infrastructure
         public static IServiceCollection AddInfrastructureServices(this IServiceCollection services, 
             IConfiguration configuration, IWebHostEnvironment environment)
         {
+
+            var connectionString = configuration.GetConnectionString("DefaultConnection") ??
+               throw new InvalidOperationException("Connection string not found.");
+
             if (environment.IsDevelopment())
             {
                 // Use in-memory database for development
                 services.AddDbContext<DwellerDbContext>(options =>
-                    options.UseInMemoryDatabase("DwellerDb"));
+                    options.UseNpgsql(connectionString));
             }
 
             else
             {
-                var connectionString = configuration.GetConnectionString("DefaultConnection") ??
-               throw new InvalidOperationException("Connection string not found.");
-
-                services.AddDbContext<DwellerDbContext>(options => options.UseSqlServer(connectionString));
+               // var connectionString = configuration.GetConnectionString("DefaultConnection") ??
+               //throw new InvalidOperationException("Connection string not found.");
+                services.AddDbContext<DwellerDbContext>(options => options.UseNpgsql(connectionString));
             }
 
             //Repositories

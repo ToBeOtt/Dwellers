@@ -49,13 +49,16 @@ namespace DwellersApi.Controllers
             return Ok(result);
         }
 
-        [HttpGet("GetDwellingConversation")]
-        public async Task<IActionResult> GetDwellingConversation()
+        [HttpPost("GetDwellingConversation")]
+        public async Task<IActionResult> GetDwellingConversation(GetDwellingConversationRequest? request)
         {
             var dwellingIdClaim = User.FindFirst("HouseId") ?? throw new InvalidCredentialException();
+            Guid? conversationId = request?.ConversationId;
 
+            // ConversationId may optionally be null, depending on defaulting dwelling-conversation or if a specific conversation is requested. 
             var query = new GetDwellingConversationQuery(
-               DwellingId: new Guid(dwellingIdClaim.Value));
+              DwellingId: new Guid(dwellingIdClaim.Value),
+              ConversationId: conversationId);
 
             var handler = _queryHandler.GetHandler<GetDwellingConversationQuery, GetDwellingConversationResult>();
             var result = await handler.Handle(query, new CancellationToken());
@@ -65,6 +68,45 @@ namespace DwellersApi.Controllers
                 return BadRequest(result.ErrorMessage);
             }
             return Ok(result.Data);
+        }
+
+        [HttpGet("GetAllDwellingConversations")]
+        public async Task<IActionResult> GetAllDwellingConversations()
+        {
+            var dwellingIdClaim = User.FindFirst("HouseId") ?? throw new InvalidCredentialException();
+
+            var query = new GetAllDwellingConversationsQuery(
+               DwellingId: new Guid(dwellingIdClaim.Value));
+
+            var handler = _queryHandler.GetHandler<GetAllDwellingConversationsQuery, GetAllDwellingConversationsResult>();
+            var result = await handler.Handle(query, new CancellationToken());
+
+            if (!result.IsSuccess)
+            {
+                return BadRequest(result.ErrorMessage);
+            }
+            return Ok(result.Data);
+        }
+
+        
+        [HttpPost("AddDwellingConversation")]
+        public async Task<IActionResult> AddDwellingConversation(AddDwellingConversationRequest request)
+        {
+            var dwellingIdClaim = User.FindFirst("HouseId") ?? throw new InvalidCredentialException();
+
+            var cmd = new AddDwellingConversationCommand(
+               InvitedConversationMembers: request.InvitedConversationMembers,
+               InviterId: new Guid(dwellingIdClaim.Value));
+
+            var handler = _commandHandler.GetHandler<AddDwellingConversationCommand, DwellerUnit>();
+            var result = await handler.Handle(cmd, new CancellationToken());
+
+            if (!result.IsSuccess)
+            {
+                return BadRequest(result);
+               
+            }
+            return Ok();
         }
     }
 }

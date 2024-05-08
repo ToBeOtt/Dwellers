@@ -18,6 +18,13 @@ namespace Dwellers.Common.Infrastructure.Context
             : base(options)
         {
         }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.ApplyConfigurationsFromAssembly(GetType().Assembly);
+            modelBuilder.HasDefaultSchema("dweller_schema");
+        }
 
         // DwellerCore
         public DbSet<Dweller> Dwellers { get; set; }
@@ -47,7 +54,5 @@ namespace Dwellers.Common.Infrastructure.Context
         public DbSet<DwellerService> DwellerServices { get; set; }
         public DbSet<ProvidedService> ProvidedServices { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-          => modelBuilder.ApplyConfigurationsFromAssembly(GetType().Assembly);
     }
 }

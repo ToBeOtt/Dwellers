@@ -4,7 +4,7 @@
     {
         public Guid Id { get; set; } = id;
         public string Message { get; set; } = message;
-        public string MessageDate { get; set; } = messageDate.ToShortDateString();
+        public string MessageDate { get; set; } = messageDate.ToLocalTime().ToString();
         public string? Author { get; set; } = author;
         public bool IsRead { get; set; } = isRead;
 

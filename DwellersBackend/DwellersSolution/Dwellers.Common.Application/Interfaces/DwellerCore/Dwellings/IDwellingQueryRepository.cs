@@ -15,6 +15,7 @@ namespace Dwellers.Common.Application.Interfaces.DwellerCore.Dwellings
         Task<Dwelling> GetDwellingByDwellingInhabitantAsync(string dwellerId);
 
         Task<List<Dwelling>> GetAllDwellingsByListOfIdsAsync(List<Guid> listOfDwellings);
-        
+        Task<List<Dwelling>> GetConnectedDwellingsById(List<Guid> dwellingIds);
+
     }
 }

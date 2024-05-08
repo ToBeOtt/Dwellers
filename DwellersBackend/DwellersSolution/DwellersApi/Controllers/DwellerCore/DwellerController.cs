@@ -42,7 +42,7 @@ namespace DwellersApi.Controllers.DwellerCore
                 DwellerId: userIdClaim.Value,
                 DwellerPhoto: profilePhoto);
 
-            var handler = _commandHandler.GetHandler<SetDwellerProfilePhotoCommand, DwellerResponse<DwellerUnit>>();
+            var handler = _commandHandler.GetHandler<SetDwellerProfilePhotoCommand, DwellerUnit>();
             var result = await handler.Handle(cmd, new CancellationToken());
 
             return Ok(result);

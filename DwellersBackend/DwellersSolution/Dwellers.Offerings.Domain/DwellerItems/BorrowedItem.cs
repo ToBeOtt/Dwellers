@@ -25,7 +25,7 @@ namespace Dwellers.Offerings.Domain.DwellerItems
             DwellerItem = dwellerItem;
 
             IsArchived = false;
-            IsCreated = DateTime.Now;
+            IsCreated = DateTime.UtcNow;
         }
     }
 }

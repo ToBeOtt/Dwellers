@@ -13,7 +13,7 @@ namespace Dwellers.DwellerCore.Domain.Entities.Dwellers
         public byte[]? ProfilePhoto { get; set; }
 
         public bool? IsArchived { get; set; }
-        public DateTime? IsCreated { get; set; }
+        public DateTime IsCreated { get; set; } 
         public DateTime? IsModified { get; set; }
 
         public DwellingInhabitant DwellingInhabitant { get; set; }
@@ -25,7 +25,7 @@ namespace Dwellers.DwellerCore.Domain.Entities.Dwellers
 
             Alias = alias;
             Email = email;
-            IsCreated = DateTime.Now;
+            IsCreated = DateTime.UtcNow;
             IsArchived = false;
         }
         public static class DwellerFactory

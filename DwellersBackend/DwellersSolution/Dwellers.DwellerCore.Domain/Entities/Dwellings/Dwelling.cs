@@ -1,6 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
+using Microsoft.Graph.Security.Triggers.RetentionEvents.Item.RetentionEventType;
 using SharedKernel.Domain;
 using SharedKernel.ServiceResponse;
+using System.Linq;
+using System.Runtime.CompilerServices;
 
 namespace Dwellers.DwellerCore.Domain.Entities.Dwellings
 {
@@ -15,6 +18,8 @@ namespace Dwellers.DwellerCore.Domain.Entities.Dwellings
 
         public DwellingInhabitant DwellingInhabitant { get; set; }
 
+        public List<Guid> DwellingFriends { get; set; } = new List<Guid>();
+
         public bool IsArchived { get; set; } 
         public DateTime IsCreated { get; set; }
         public DateTime IsModified { get; set; }
@@ -26,7 +31,7 @@ namespace Dwellers.DwellerCore.Domain.Entities.Dwellings
             Name = name;
             Description = description;
 
-            IsCreated = DateTime.Now;
+            IsCreated = DateTime.UtcNow;
             IsArchived = false;
             InvitationCode = Guid.NewGuid();
         }

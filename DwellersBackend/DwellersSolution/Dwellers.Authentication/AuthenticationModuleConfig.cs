@@ -22,19 +22,20 @@ namespace Dwellers.Authentication
             IConfiguration configuration, IWebHostEnvironment environment)
         {
 
+            var connectionString = configuration.GetConnectionString("AuthConnection") ??
+                throw new InvalidOperationException("Connection string not found.");
+
             if (environment.IsDevelopment())
-            {
+            { 
                 services.AddDbContext<AuthDbContext>(options =>
-                    options.UseInMemoryDatabase("AuthDb"));
+                    options.UseNpgsql(connectionString));
             }
             else
             {
-                var connectionString = configuration.GetConnectionString("DefaultConnection") ??
-                throw new InvalidOperationException("Connection string not found.");
+                //var connectionString = configuration.GetConnectionString("DefaultConnection") ??
+                //throw new InvalidOperationException("Connection string not found.");
 
-                services.AddDbContext<AuthDbContext>(options => options.UseSqlServer
-                    (connectionString, x => x.MigrationsHistoryTable
-                        ("__DwellerAuthenticationMigrationsHistory", "DwellerAuthenticationSchema")));
+                services.AddDbContext<AuthDbContext>(options => options.UseNpgsql(connectionString));
             }
             
             services.AddDefaultIdentity<DbUser>(options => options.SignIn.RequireConfirmedAccount = false)

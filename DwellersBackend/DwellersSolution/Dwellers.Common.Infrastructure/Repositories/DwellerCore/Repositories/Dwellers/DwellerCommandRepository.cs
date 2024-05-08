@@ -23,7 +23,7 @@ namespace Dwellers.Common.Infrastructure.Repositories.DwellerCore.Repositories.D
             {
                 await _context.Dwellers.AddAsync(dweller);
                 return await _context.SaveChangesAsync() > 0;
-    }
+        }
             catch (Exception ex)
             {
                 _logger.LogError(ex, "An error occurred while executing GetDwellerByEmail: {ErrorMessage}", ex.Message);
@@ -31,6 +31,20 @@ namespace Dwellers.Common.Infrastructure.Repositories.DwellerCore.Repositories.D
             }
         }
 
+        public async Task<bool> UpdateDweller(Dweller dweller)
+        {
+            try
+            {
+                _context.Dwellers.Update(dweller);
+                return await _context.SaveChangesAsync() > 0;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "An error occurred while executing GetDwellerByEmail: {ErrorMessage}", ex.Message);
+                return false;
+            }
+        }
+        
         public async Task<bool> DeleteDwellerAsync(Dweller dweller)
         {
             try

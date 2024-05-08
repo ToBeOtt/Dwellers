@@ -3,6 +3,7 @@ using Dwellers.Common.Infrastructure.Context;
 using Dwellers.DwellerCore.Domain.Entities;
 using Dwellers.DwellerCore.Domain.Entities.Dwellings;
 using Microsoft.EntityFrameworkCore;
+using Npgsql.EntityFrameworkCore.PostgreSQL.Query.Expressions.Internal;
 
 namespace Dwellers.Common.Infrastructure.Repositories.DwellerCore.Repositories.Dwellings
 {
@@ -43,5 +44,15 @@ namespace Dwellers.Common.Infrastructure.Repositories.DwellerCore.Repositories.D
 
             return dwellings;
         }
+
+        public async Task<List<Dwelling>> GetConnectedDwellingsById(List<Guid> dwellingIds)
+        {
+            var dwellings = await _context.Dwellings
+                                    .Where(d => dwellingIds.Contains(d.Id)) 
+                                    .ToListAsync();
+
+            return dwellings;
+        }
+        
     }
 }
